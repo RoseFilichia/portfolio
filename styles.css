@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  /*padding: 0;*/
+  /*box-sizing: border-box;*/
+}
+
+h1 {
+  display: flex;
+  justify-content: left;
+  padding: 20px 10px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+ text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 300;
+ text-transform: uppercase;
+ color: white;
+}
+
+.descr {
+  display: flex;
+  justify-content: left;
+  padding: 10px 10px;
+  font-weight: bold;
+}
+
+.projects,
+.work {
+  width: 50%;
+  margin: 0;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+
+.projects {
+  background-color: #0277bd;
+  padding: 20px;
+}
+
+.work {
+  background-color: #4fc3f7;
+  padding: 20px;
+}
+
+.contact {
+  padding-top: 30px;
+  font-weight: 300;
+ text-transform: uppercase;
+ padding: 10px;
+}
+
+ul, ol {
+  list-style-type: none;
+}
